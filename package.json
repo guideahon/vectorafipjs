@@ -1,14 +1,15 @@
 {
-  "name": "afipjs",
-  "version": "1.1.5",
+  "name": "vectorafipjs",
+  "version": "1.2.5",
   "description": "Libreria para uso de los Webservices de AFIP con Node.js",
-  "main": "afip.js",
+  "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/emilianito/afipjs.git"
+    "url": "git+https://github.com/guideahon/vectorafipjs.git"
   },
   "keywords": [
     "afip",
@@ -16,18 +17,19 @@
     "javascript",
     "webservices"
   ],
-  "author": " <Emiliano Nunez> (example.com)",
+  "author": "cll (vectorft.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/emilianito/afipjs/issues"
+    "url": "https://github.com/guideahon/vectorafipjs/issues"
   },
-  "homepage": "https://github.com/emilianito/afipjs#readme",
+  "homepage": "https://github.com/guideahon/vectorafipjs#readme",
   "dependencies": {
     "@fidm/x509": "^1.2.1",
     "bwip-js": "^1.7.4",
     "node-forge": "^1.3.1",
-    "soap": "^0.36.0",
-    "xml2js": "^0.4.23"
+    "punycode": "^2.1.1",
+    "soap": "^1.1.10",
+    "xml2js": "^0.6.2"
   },
   "devDependencies": {
     "eslint": "^7.32.0"
